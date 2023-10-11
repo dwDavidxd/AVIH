@@ -14,7 +14,18 @@ Growing leakage and misuse of visual information raise security and privacy conc
 <p float="left" align="center">
 <img src="arch.png" width="800" /> 
 <figcaption align="center">
-The illustration of our proposed method (RSA). We utilize an asymmetric-style framework, including an online network and a target network. The online network is optimized by gradients, and the target network is updated with the exponential moving average strategy. We first adopt the weak augmentation to generate two views, then adopt the aggressive augmentations to further generate another two views. Subsequently, we make aggressive-augmented views to keep consistent with their corresponding weak- and aggressive-augmented views in the embedding space. On the right of the image, we compare RSA with classical SSL methods. RSA forces learned representations to a balance between weak- and aggressive-augmented views.
+  
+The illustration of visual information hiding for face recognition systems in cloud environments. The gallery set is protected and provided to the DNN in the cloud. Protected image has quite different visual information from the original image, but it is still correctly identified. The protected gallery set can be recovered by a key model by the owner.
+</figcaption>
+</p>
+
+
+
+<p float="left" align="center">
+<img src="method.png" width="800" /> 
+<figcaption align="center">
+  
+The overview of adversarial attack-based visual information hiding (AVIH) method. Taking the face recognition as an example, given a service model and a pre-trained key model, we protect the original image $x$ and obtain the protected image $x^{\prime}$.
 </figcaption>
 </p>
 
