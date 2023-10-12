@@ -1,6 +1,6 @@
 <div align="center">   
   
-# Hiding Visual Information via Obfuscating Adversarial Perturbations
+# Hiding Visual Information via Obfuscating <br> Adversarial Perturbations
 [![Paper](https://img.shields.io/badge/paper-ICCV-green)](https://openaccess.thecvf.com/content/ICCV2023/papers/Su_Hiding_Visual_Information_via_Obfuscating_Adversarial_Perturbations_ICCV_2023_paper.pdf)
 
 </div>
@@ -31,7 +31,7 @@ The overview of adversarial attack-based visual information hiding (AVIH) method
 
 
 ## Requirements
-- This codebase is written for `python3` and 'pytorch'.
+- This codebase is written for `python3` and `pytorch`.
 - To install necessary python packages, run `pip install -r requirements.txt`.
 
 
